@@ -7,7 +7,7 @@ import pickle
 #filename = 'D:/projects/PracticePRo/trained_model.sav'
 #pickle.dump(model, open(filename, 'wb'))
 
-loaded_model = pickle.load(open('D:/projects/PracticePRo/rock_or_mine/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 
 # Load the trained model
